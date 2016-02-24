@@ -56,7 +56,7 @@ If you’d rather use different names, you’ll be glad to know `export` and `im
 ```js
 // exporter.js
 export {g as x};
-g(); // same as calling y() in importer.js
+g(); // same as calling x() in importer.js
 ```
 
 ```js
